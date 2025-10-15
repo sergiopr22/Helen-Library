@@ -51,4 +51,18 @@ public class LibroService {
         libro.setValoracion(null); // elimina la referencia
         return libroRepository.save(libro); // gracias a orphanRemoval, también borra la fila de valoracion
     }
+
+    // Método de búsqueda
+    public List<Libro> buscarLibros(String titulo, String autor, String genero) {
+        // Si algún parámetro es null, lo reemplazamos por cadena vacía para que la búsqueda funcione
+        if (titulo == null) titulo = "";
+        if (autor == null) autor = "";
+        if (genero == null) genero = "";
+        return libroRepository.findByTituloContainingIgnoreCaseAndAutorContainingIgnoreCaseAndGeneroContainingIgnoreCase(
+                titulo, autor, genero);
+    }
+
+    public List<Libro> filtrarPorLeido(boolean leido) {
+    return libroRepository.findByLeido(leido);
+    }
 }

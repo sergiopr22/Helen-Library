@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootBiblioteca2Application<springboot-biblioteca2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sergio.springboot.biblioteca2.springboot_biblioteca2.SpringbootBiblioteca2Application",
+            "projectName": "springboot-biblioteca2",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

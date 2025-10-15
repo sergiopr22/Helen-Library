@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro;
@@ -18,6 +19,7 @@ import com.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroSe
 @RestController
 @RequestMapping("/api/libros")
 public class LibroController {
+
     private final LibroService libroService;
 
     public LibroController(LibroService libroService) {
@@ -60,5 +62,19 @@ public class LibroController {
     @DeleteMapping("/{id}/valoracion")
     public Libro eliminarValoracion(@PathVariable Long id) {
         return libroService.eliminarValoracionDeLibro(id);
+    }
+
+    // Endpoint de búsqueda
+    @GetMapping("/buscar")
+    public List<Libro> buscarLibros(
+            @RequestParam(required = false) String titulo,
+            @RequestParam(required = false) String autor,
+            @RequestParam(required = false) String genero) {
+        return libroService.buscarLibros(titulo, autor, genero);
+    }
+
+    @GetMapping("/filtrar")
+    public List<Libro> filtrarLibros(@RequestParam boolean leido) {
+        return libroService.filtrarPorLeido(leido);
     }
 }
