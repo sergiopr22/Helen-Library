@@ -2,6 +2,11 @@ package com.sergio.springboot.biblioteca2.springboot_biblioteca2.services;
 
 import java.util.List;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+
 import org.springframework.stereotype.Service;
 
 import com.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro;
@@ -64,5 +69,11 @@ public class LibroService {
 
     public List<Libro> filtrarPorLeido(boolean leido) {
     return libroRepository.findByLeido(leido);
+    }
+
+    // Paginación
+    public Page<Libro> listarLibrosPaginados(int page, int size, String sortBy) {
+        Pageable pageable = PageRequest.of(page, size, Sort.by(sortBy));
+        return libroRepository.findAll(pageable);
     }
 }

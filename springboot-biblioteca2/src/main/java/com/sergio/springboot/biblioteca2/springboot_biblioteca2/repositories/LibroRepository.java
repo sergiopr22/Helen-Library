@@ -3,10 +3,11 @@ package com.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories;
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.PagingAndSortingRepository;
 
 import com.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro;
 
-public interface LibroRepository extends CrudRepository<Libro, Long> {
+public interface LibroRepository extends CrudRepository<Libro, Long>, PagingAndSortingRepository<Libro, Long> {
 
     // Buscar por título (contiene, insensible a mayúsculas)
     List<Libro> findByTituloContainingIgnoreCase(String titulo);

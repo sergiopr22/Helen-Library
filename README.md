@@ -13,14 +13,12 @@ Filtrado de libros leídos/no leídos (Hecho)
 
 Por ejemplo, GET /api/libros?leido=true. (Hecho)
 
-Paginación y ordenamiento
+Paginación y ordenamiento (Hecho)
 
-Para no traer todos los libros a la vez.
+Para no traer todos los libros a la vez. (Hecho)
 
-Ordenar por título, autor, páginas, fecha de agregado.
+Validaciones y errores claros (Hecho)
 
-Validaciones y errores claros
-
-Evitar títulos vacíos, páginas negativas, etc.
+Evitar títulos vacíos, páginas negativas, etc. (Hecho)
 
 Mensajes de error JSON claros en los endpoints.

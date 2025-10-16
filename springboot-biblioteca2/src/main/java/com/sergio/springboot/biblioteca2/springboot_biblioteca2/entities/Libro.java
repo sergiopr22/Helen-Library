@@ -9,6 +9,8 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
+import jakarta.validation.constraints.*;
+
 @Entity
 @Table(name = "libros")
 public class Libro {
@@ -17,10 +19,18 @@ public class Libro {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @NotBlank(message = "El título no puede estar vacío")
     private String titulo;
+
+    @NotBlank(message = "El autor no puede estar vacío")
     private String autor;
+
+    @NotBlank(message = "El género no puede estar vacío")
     private String genero;
+
+    @Min(value = 1, message = "El número de páginas debe ser al menos 1")
     private int paginas;
+
     private boolean leido;
 
     @OneToOne(cascade = CascadeType.ALL, orphanRemoval = true)
