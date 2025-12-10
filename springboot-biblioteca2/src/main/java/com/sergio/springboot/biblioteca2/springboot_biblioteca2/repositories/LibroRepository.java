@@ -6,7 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 import com.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro;
-
+// Repositorio para la entidad Libro con métodos de búsqueda personalizados
 public interface LibroRepository extends CrudRepository<Libro, Long>, PagingAndSortingRepository<Libro, Long> {
 
     // Buscar por título (contiene, insensible a mayúsculas)
