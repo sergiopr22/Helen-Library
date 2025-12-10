@@ -7,6 +7,8 @@ import com.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroSe
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.data.domain.PageImpl;
@@ -27,6 +29,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 // Anotación clave para probar solo la capa web (Controller)
 @WebMvcTest(LibroController.class)
+@EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
 public class LibroControllerTest {
 
     @Autowired
