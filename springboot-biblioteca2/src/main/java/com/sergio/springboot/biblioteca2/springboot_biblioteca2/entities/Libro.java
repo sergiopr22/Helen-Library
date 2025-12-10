@@ -49,6 +49,17 @@ public class Libro {
         this.leido = leido;
     }
 
+     // Constructor requerido por el Test para crear una instancia con ID
+     // Corresponde a la llamada: new Libro(1L, "Título", "Autor", "Género", 100, true)
+     public Libro(Long id, String titulo, String autor, String genero, int paginas, boolean leido) {
+     this.id = id;
+     this.titulo = titulo;
+     this.autor = autor;
+     this.genero = genero;
+     this.paginas = paginas;
+     this.leido = leido;
+     }
+
     public Long getId() {
          return id; 
     }

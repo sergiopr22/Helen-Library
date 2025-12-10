@@ -1,0 +1,27 @@
+
+ïcom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService#guardarLibro(Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Libro;)Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Libro;¿
+´C:/Users/sergi/OneDrive/Documentos/Springboot/Helen-Library/springboot-biblioteca2/src/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/services/LibroService.java' '("1*¦
+1( ((ö
+ó
+( (([
+%0Ucom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.LibroRepository"__id*ƒ
+
+__unknown_file (g*eP
+Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService"
+libroRepositoryÀ½
+( ((*M
+%1Gcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;*y
+
+__unknown_file (]
+[
+%0Ucom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.LibroRepository*n
+
+__unknown_file (R
+P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro2save(Ljava/lang/Object;)"[
+( ((+O
+M
+%1Gcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro:\
+' '()P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.LibroBRP
+Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroServiceH

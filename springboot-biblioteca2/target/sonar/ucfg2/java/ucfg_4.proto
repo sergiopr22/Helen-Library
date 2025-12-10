@@ -1,0 +1,21 @@
+
+com.sergio.springboot.biblioteca2.springboot_biblioteca2.controllers.ValoracionController#obtenerValoraciones()Ljava/util/List; 
+øC:/Users/sergi/OneDrive/Documentos/Springboot/Helen-Library/springboot-biblioteca2/src/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/controllers/ValoracionController.java (/"1*‰
+1 ( Å
+˛
+ ( Y
+%0Scom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.ValoracionService"__id*ê
+
+__unknown_file (t*r[
+Ycom.sergio.springboot.biblioteca2.springboot_biblioteca2.controllers.ValoracionController"
+valoracionService¨©
+ (5
+%1java.util.List"xcom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.ValoracionService#listarValoraciones()Ljava/util/List;*w
+
+__unknown_file ([
+Y
+%0Scom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.ValoracionService2listarValoraciones()""
+ (6
+
+%1java.util.ListB][
+Ycom.sergio.springboot.biblioteca2.springboot_biblioteca2.controllers.ValoracionControllerH

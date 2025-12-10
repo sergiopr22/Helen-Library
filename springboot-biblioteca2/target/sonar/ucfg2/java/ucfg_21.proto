@@ -1,0 +1,130 @@
+
+___sonar_lambda_0$com.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroServiceø
+¥C:/Users/sergi/OneDrive/Documentos/Springboot/Helen-Library/springboot-biblioteca2/src/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/services/LibroService.java, $("startingBlock*ª
+startingBlock, $(á
+Ñ
+
+__unknown_file ([
+libroActualizadoGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"__id*Ñ
+
+__unknown_file (h*fP
+Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService"
+libroActualizadoê
+ç
+
+__unknown_file (c
+LibroService.thisNcom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService"__id*Ö
+
+__unknown_file (i*gP
+Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService"
+LibroService.this*
+1*â
+1 (îë
+ (4
+%3java.lang.String"ecom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro#getTitulo()Ljava/lang/String;*y
+
+__unknown_file (]
+[
+libroActualizadoGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro2getTitulo()∆√
+ (5
+
+%4void"fcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro#setTitulo(Ljava/lang/String;)V*n
+
+__unknown_file (R
+P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro*4
+
+__unknown_file (
+
+%3java.lang.String2setTitulo(Ljava/lang/String;)íè
+ (2
+%5java.lang.String"dcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro#getAutor()Ljava/lang/String;*y
+
+__unknown_file (]
+[
+libroActualizadoGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro2
+getAutor()ƒ¡
+ (3
+
+%6void"ecom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro#setAutor(Ljava/lang/String;)V*n
+
+__unknown_file (R
+P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro*4
+
+__unknown_file (
+
+%5java.lang.String2setAutor(Ljava/lang/String;)îë
+   (4
+%7java.lang.String"ecom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro#getGenero()Ljava/lang/String;*y
+
+__unknown_file (]
+[
+libroActualizadoGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro2getGenero()∆√
+   (5
+
+%8void"fcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro#setGenero(Ljava/lang/String;)V*n
+
+__unknown_file (R
+P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro*4
+
+__unknown_file (
+
+%7java.lang.String2setGenero(Ljava/lang/String;)¯ı
+! !(6	
+%9int"Ucom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro#getPaginas()I*y
+
+__unknown_file (]
+[
+libroActualizadoGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro2getPaginas()öó
+! !(7
+%10void"Vcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro#setPaginas(I)V*n
+
+__unknown_file (R
+P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro*'
+
+__unknown_file (
+	
+%9int2setPaginas(I)˜Ù
+" "(1
+%11boolean"Rcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro#isLeido()Z*y
+
+__unknown_file (]
+[
+libroActualizadoGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro2	isLeido()õò
+" "(2
+%12void"Tcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro#setLeido(Z)V*n
+
+__unknown_file (R
+P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro*,
+
+__unknown_file (
+
+%11boolean2setLeido(Z)ä
+á
+# #(\
+%13Ucom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.LibroRepository"__id*ñ
+
+__unknown_file (z*x
+c
+LibroService.thisNcom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService"
+libroRepository¬ø
+# #(*N
+%14Gcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;*z
+
+__unknown_file (^
+\
+%13Ucom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.LibroRepository*n
+
+__unknown_file (R
+P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro2save(Ljava/lang/Object;)"\
+# #(+P
+N
+%14Gcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro:\
+, (1P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.LibroB
+java.util.function.Function

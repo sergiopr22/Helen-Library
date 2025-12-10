@@ -28,6 +28,15 @@ public class Valoracion {
         this.cosasADestacar = cosasADestacar;
     }
 
+    
+
+    public Valoracion(Long id, int estrellas, String critica, String cosasADestacar) {
+        this.id = id;
+        this.estrellas = estrellas;
+        this.critica = critica;
+        this.cosasADestacar = cosasADestacar;
+    }
+
     public Long getId() {
         return id;
     }

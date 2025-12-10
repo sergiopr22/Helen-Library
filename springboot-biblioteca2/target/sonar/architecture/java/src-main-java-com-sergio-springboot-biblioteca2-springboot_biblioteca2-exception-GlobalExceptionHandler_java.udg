@@ -1,0 +1,505 @@
+
+1.0sergiopr22_Helen-LibraryJavaFrontend"1765397059706*java2.Bø
+q
+lsrc/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/exception/GlobalExceptionHandler.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+sergiopr22_Helen-Library6
+
+package8
+`
+[sergiopr22_Helen-Library:com.sergio.springboot.biblioteca2.springboot_biblioteca2.exception9
+_
+Ycom.sergio.springboot.biblioteca2.springboot_biblioteca2.exception.GlobalExceptionHandler11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(16:1)-(65:2)16
+
+simple-name17
+
+GlobalExceptionHandler18
+>
+8org.springframework.web.bind.annotation.ControllerAdvice20
+
+unknown21
+
+annotated by22
+
+
+uses23
+ä
+Ýcom.sergio.springboot.biblioteca2.springboot_biblioteca2.exception.GlobalExceptionHandler#handleValidationExceptions(Lorg/springframework/web/bind/MethodArgumentNotValidException;)Lorg/springframework/http/ResponseEntity;25
+
+method26
+
+(20:5)-(30:6)27
+ 
+handleValidationExceptions28
+-
+'org.springframework.http.ResponseEntity30
+
+returns31
+B
+<org.springframework.web.bind.MethodArgumentNotValidException33
+
+	has param34
+<
+6org.springframework.web.bind.annotation.ResponseStatus36
+)
+#org.springframework.http.HttpStatus38
+5
+/org.springframework.http.HttpStatus.BAD_REQUEST40
+
+
+references41
+>
+8org.springframework.web.bind.annotation.ExceptionHandler43
+
+is type44
++
+%org.springframework.validation.Errors46
+L
+Forg.springframework.validation.Errors#getFieldErrors()Ljava/util/List;48
+
+calls49
+2
+,org.springframework.validation.BindingResult51
+2
+,org.springframework.validation.BindException53
+s
+morg.springframework.validation.BindException#getBindingResult()Lorg/springframework/validation/BindingResult;55
+/
+)org.springframework.validation.FieldError57
+L
+Forg.springframework.validation.FieldError#getField()Ljava/lang/String;59
+H
+Borg.springframework.context.support.DefaultMessageSourceResolvable61
+n
+horg.springframework.context.support.DefaultMessageSourceResolvable#getDefaultMessage()Ljava/lang/String;63
+9
+3org.springframework.http.ResponseEntity$BodyBuilder65
+{
+uorg.springframework.http.ResponseEntity$BodyBuilder#body(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;67
+o
+iorg.springframework.http.ResponseEntity#badRequest()Lorg/springframework/http/ResponseEntity$BodyBuilder;69
+·
+°com.sergio.springboot.biblioteca2.springboot_biblioteca2.exception.GlobalExceptionHandler#handleGeneralException(Ljava/lang/Exception;)Lorg/springframework/http/ResponseEntity;71
+
+(33:5)-(39:6)72
+
+handleGeneralException73
+•
+Žorg.springframework.http.ResponseEntity#status(Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/http/ResponseEntity$BodyBuilder;75
+?
+9org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR77
+á
+Úcom.sergio.springboot.biblioteca2.springboot_biblioteca2.exception.GlobalExceptionHandler#handleInvalidJson(Lorg/springframework/http/converter/HttpMessageNotReadableException;)Lorg/springframework/http/ResponseEntity;79
+
+(41:5)-(64:6)80
+
+handleInvalidJson81
+H
+Borg.springframework.http.converter.HttpMessageNotReadableException83
+5
+/org.springframework.core.NestedRuntimeException85
+a
+[org.springframework.core.NestedRuntimeException#getMostSpecificCause()Ljava/lang/Throwable;87
+9
+3com.fasterxml.jackson.databind.JsonMappingException89
+S
+Mcom.fasterxml.jackson.databind.JsonMappingException#getPath()Ljava/util/List;91
+C
+=com.fasterxml.jackson.databind.JsonMappingException$Reference93
+d
+^com.fasterxml.jackson.databind.JsonMappingException$Reference#getFieldName()Ljava/lang/String;95J#
+!
+1
+12
+
+3
+4
+
+5
+6Z
+
+7
+7982
+
+
+5
+6jì
+
+54
+545521
+J
+10D
+101112 *
+1 ($:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+45
+454621
+
+92
+929321
+
+90
+909121
+
+50
+505121
+
+64
+646521
+
+62
+626321
+
+60
+606121
+
+66
+666721
+N
+78H
+787926 *
+1*0 *(A210:7B$
+
+
+13
+14
+
+
+15
+80
+
+
+17
+81
+
+42
+424321
+
+35
+353621
+
+52
+525321
+
+74
+747521
+
+19
+192021
+
+84
+848521
+
+56
+565721
+
+39
+394021
+
+86
+868721
+N
+24H
+242526 *
+10 (J210:7B$
+
+
+13
+14
+
+
+15
+27
+
+
+17
+28
+
+58
+585921
+
+76
+767721
+
+32
+323321
+
+82
+828321
+
+94
+949521
+
+37
+373821
+N
+70H
+707126 *
+1"0 "(F210:7B$
+
+
+13
+14
+
+
+15
+72
+
+
+17
+73
+
+29
+293021
+
+88
+888921
+
+68
+686921
+
+47
+474821rý
+
+101922*
+1 (
+
+101923*
+1 (
+
+242931*
+1 (/
+
+243234*
+1K (j
+
+243522*
+1 (,
+
+243523*
+1 (
+
+243723*
+1 (
+
+243723*
+1  (+
+
+243941*
+1  (+
+
+244222*
+1 (=
+
+244223*
+1 (
+
+243223*
+1 (6
+
+242923*
+1 (
+
+243244*
+1k (m
+
+243223*
+1K (j
+
+244541*
+1	 (-
+
+244749*
+1 (-
+
+245031*
+1	 (
+
+245241*
+1	 (
+
+245449*
+1 (
+
+245644*
+18 (=
+
+245641*
+1 ('
+
+245849*
+1 ('
+
+246041*
+1+ (B
+
+246249*
+11 (B
+
+242931*
+1 (0
+
+246441*
+1 (0
+
+246649*
+1, (0
+
+246431*
+1 ()
+
+242941*
+1 ()
+
+246849*
+1 ()
+
+702931*
+1" "(/
+
+704222*
+1! !('
+
+704223*
+1! !(
+
+702923*
+1" "(
+
+702931*
+1& &(L
+
+706441*
+1& &(L
+
+706649*
+1&H &(L
+
+706431*
+1& &(%
+
+702941*
+1& &(%
+
+707449*
+1& &(%
+
+703723*
+1&& &(0
+
+703723*
+1&1 &(F
+
+707641*
+1&1 &(F
+
+782931*
+1* *(/
+
+788234*
+1*B *(a
+
+784222*
+1) )(=
+
+784223*
+1) )(
+
+788223*
+1) )(6
+
+782923*
+1* *(
+
+788244*
+1*b *(d
+
+788223*
+1*B *(a
+
+788441*
+1/ /(2
+
+788649*
+1/ /(2
+
+788823*
+11 1(2
+
+788844*
+12" 2(%
+
+788823*
+12 2(!
+
+788823*
+12) 2(=
+
+788841*
+13 3(
+
+789049*
+13 3(
+
+789241*
+15  5(A
+
+789449*
+155 5(A
+
+789231*
+15  5(1
+
+788841*
+15  5(+
+
+789049*
+15$ 5(+
+
+782931*
+1? ?(0
+
+786441*
+1? ?(0
+
+786649*
+1?, ?(0
+
+786431*
+1? ?()
+
+782941*
+1? ?()
+
+786849*
+1? ?()

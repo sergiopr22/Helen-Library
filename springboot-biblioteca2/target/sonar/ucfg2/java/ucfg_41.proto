@@ -1,0 +1,95 @@
+
+©com.sergio.springboot.biblioteca2.springboot_biblioteca2.controllers.LibroController#buscarLibros(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;Å
+ºC:/Users/sergi/OneDrive/Documentos/Springboot/Helen-Library/springboot-biblioteca2/src/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/controllers/LibroController.javaK K(#"startingBlock*Æ
+startingBlockK# N(:¯
+¬
+L L(+
+%2"
+__annotate*T
+
+__unknown_file (86
+4org.springframework.web.bind.annotation.RequestParam*8
+
+__unknown_file (
+
+titulojava.lang.StringZ
+X
+L3 L(9
+titulojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2®
+«
+M M(+
+%3"
+__annotate*T
+
+__unknown_file (86
+4org.springframework.web.bind.annotation.RequestParam*7
+
+__unknown_file (
+
+autorjava.lang.StringY
+W
+M3 M(8
+autorjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3¯
+¬
+N N(+
+%4"
+__annotate*T
+
+__unknown_file (86
+4org.springframework.web.bind.annotation.RequestParam*8
+
+__unknown_file (
+
+generojava.lang.StringZ
+X
+N3 N(9
+generojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%4*
+1*Ù
+1O O(ò
+ï
+O O(T
+%0Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService"__id*†
+
+__unknown_file (j*hV
+Tcom.sergio.springboot.biblioteca2.springboot_biblioteca2.controllers.LibroController"
+libroService°­
+O O(?
+%1java.util.List"£com.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService#buscarLibros(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;*r
+
+__unknown_file (V
+T
+%0Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService*8
+
+__unknown_file (
+
+titulojava.lang.String*7
+
+__unknown_file (
+
+autorjava.lang.String*8
+
+__unknown_file (
+
+generojava.lang.String2DbuscarLibros(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)""
+O O(@
+
+%1java.util.List:&
+L L(:
+titulojava.lang.String:%
+M M(9
+autorjava.lang.String:&
+N N(9
+generojava.lang.StringBXV
+Tcom.sergio.springboot.biblioteca2.springboot_biblioteca2.controllers.LibroControllerH

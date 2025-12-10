@@ -1,0 +1,54 @@
+
+∂com.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService#obtenerPorId(Ljava/lang/Long;)Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Libro;ø
+¥C:/Users/sergi/OneDrive/Documentos/Springboot/Helen-Library/springboot-biblioteca2/src/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/services/LibroService.java/ /("1*ﬂ
+
+10 0(ˆ
+Û
+0 0([
+%0Ucom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.LibroRepository"__id*É
+
+__unknown_file (g*eP
+Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService"
+libroRepositoryŸ÷
+0 0(+
+%1java.util.Optional"corg.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;*y
+
+__unknown_file (]
+[
+%0Ucom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.LibroRepository*2
+
+__unknown_file (
+
+idjava.lang.Long2findById(Ljava/lang/Object;)ƒ
+¡
+1 1(S!
+%2java.util.function.Supplier"__declareFunction*
+
+__unknown_file (ca
+___sonar_lambda_2$com.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroServiceÅ
+
+
+__unknown_file ()
+!
+%2java.util.function.Supplier"
+id"__id*2
+
+__unknown_file (
+
+idjava.lang.Long“œ
+0 1(TM
+%6Gcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"Ojava.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;*6
+
+__unknown_file (
+
+%1java.util.Optional*?
+
+__unknown_file (#
+!
+%2java.util.function.Supplier2*orElseThrow(Ljava/util/function/Supplier;)"[
+0 1(UO
+M
+%6Gcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro: 
+/ /(%
+idjava.lang.LongBRP
+Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroServiceH

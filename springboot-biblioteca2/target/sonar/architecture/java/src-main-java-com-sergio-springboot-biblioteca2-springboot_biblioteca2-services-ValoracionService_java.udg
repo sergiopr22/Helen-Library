@@ -1,0 +1,492 @@
+
+1.0sergiopr22_Helen-LibraryJavaFrontend"1765397059571*java2.B 
+k
+fsrc/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/services/ValoracionService.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+sergiopr22_Helen-Library6
+
+package8
+_
+Zsergiopr22_Helen-Library:com.sergio.springboot.biblioteca2.springboot_biblioteca2.services9
+Y
+Scom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.ValoracionService11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(10:1)-(39:2)16
+
+simple-name17
+
+ValoracionService18
+,
+&org.springframework.stereotype.Service20
+
+unknown21
+
+annotated by22
+
+
+uses23
+n
+hcom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.ValoracionService.valoracionRepository25
+
+field26
+
+private27
+
+(13:5)-(13:61)28
+
+valoracionRepository29
+`
+Zcom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.ValoracionRepository31
+
+is type32
+¿
+πcom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.ValoracionService#<init>(Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/repositories/ValoracionRepository;)V34
+
+method35
+
+(15:5)-(17:6)36
+
+	has param37
+
+calls38
+
+
+references39
+~
+xcom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.ValoracionService#listarValoraciones()Ljava/util/List;41
+
+(19:5)-(21:6)42
+
+listarValoraciones43
+R
+Lcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion45
+8
+2org.springframework.data.repository.CrudRepository47
+V
+Porg.springframework.data.repository.CrudRepository#findAll()Ljava/lang/Iterable;49
+ä
+Écom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.ValoracionService#guardarValoracion(Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Valoracion;)Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Valoracion;51
+
+(23:5)-(25:6)52
+
+guardarValoracion53
+
+returns54
+c
+]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;56
+
+ycom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.ValoracionService#eliminarValoracion(Ljava/lang/Long;)V58
+
+(27:5)-(29:6)59
+
+eliminarValoracion60
+X
+Rorg.springframework.data.repository.CrudRepository#deleteById(Ljava/lang/Object;)V62
+ù
+ñcom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.ValoracionService#actualizarValoracion(Ljava/lang/Long;Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Valoracion;)Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Valoracion;64
+
+(31:5)-(38:2)65
+
+actualizarValoracion66
+i
+corg.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;68
+c
+]com.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#setEstrellas(I)V70
+b
+\com.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#getEstrellas()I72
+r
+lcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#setCritica(Ljava/lang/String;)V74
+q
+kcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#getCritica()Ljava/lang/String;76
+y
+scom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#setCosasADestacar(Ljava/lang/String;)V78
+x
+rcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#getCosasADestacar()Ljava/lang/String;80J#
+!
+1
+12
+
+3
+4
+
+5
+6Z
+
+7
+7982
+
+
+5
+6jƒ
+
+44
+444521
+
+48
+484921
+
+55
+555621
+N
+57H
+575835 *
+1 (#210:7B$
+
+
+13
+14
+
+
+15
+59
+
+
+17
+60
+
+75
+757621
+
+61
+616221
+N
+33H
+333435 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+36
+
+
+17
+18
+
+69
+697021
+
+30
+303121
+
+46
+464721
+N
+63H
+636435 *
+1 (+210:7B$
+
+
+13
+14
+
+
+15
+65
+
+
+17
+66
+N
+50H
+505135 *
+1 ((210:7B$
+
+
+13
+14
+
+
+15
+52
+
+
+17
+53
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+71
+717221
+
+79
+798021
+
+19
+192021
+
+77
+777821
+
+67
+676821
+
+73
+737421
+N
+24H
+242526 *
+1( (<210:7B$
+
+
+13
+27
+
+
+15
+28
+
+
+17
+29
+N
+40H
+404135 *
+1 (/210:7B$
+
+
+13
+14
+
+
+15
+42
+
+
+17
+43rˆ
+
+101922*
+1
+ 
+(	
+
+101923*
+1
+ 
+(	
+
+243032*
+1 ('
+
+243023*
+1 ('
+
+243023*
+1( (<
+
+333037*
+1 (2
+
+331038*
+1 (
+
+333032*
+13 (G
+
+333023*
+1 (2
+
+331023*
+1	 (
+
+331039*
+1	 (
+
+333023*
+1 ("
+
+332439*
+1 ("
+
+404423*
+1 (
+
+404423*
+1 ( 
+
+404639*
+1# (?
+
+404838*
+18 (?
+
+402439*
+1# (7
+
+403023*
+1# (7
+
+402439*
+1# (7
+
+504454*
+1 (
+
+504437*
+1) (3
+
+504423*
+1 (
+
+504432*
+14 (>
+
+504423*
+1) (3
+
+504454*
+1 ()
+
+504639*
+1 ()
+
+505538*
+1% ()
+
+502439*
+1 ($
+
+503023*
+1 ($
+
+502439*
+1 ($
+
+574639*
+1	 ((
+
+576138*
+1 ((
+
+572439*
+1	 (
+
+573023*
+1	 (
+
+572439*
+1	 (
+
+634454*
+1 (
+
+634437*
+15 (?
+
+634423*
+1 (
+
+634432*
+1@ (U
+
+634423*
+15 (?
+
+634454*
+1  %(
+
+634639*
+1   (-
+
+636738*
+1 %  (-
+
+632439*
+1   ($
+
+633023*
+1   ($
+
+632439*
+1   ($
+
+634432*
+1 6  (@
+
+634439*
+1! !($
+
+636938*
+1! !($
+
+634439*
+1!% !(G
+
+637138*
+1!; !(G
+
+634439*
+1" "("
+
+637338*
+1" "("
+
+634439*
+1"# "(C
+
+637538*
+1"9 "(C
+
+634439*
+1# #()
+
+637738*
+1# #()
+
+634439*
+1#* #(Q
+
+637938*
+1#@ #(Q
+
+634454*
+1$ $(-
+
+634639*
+1$ $(-
+
+635538*
+1$) $(-
+
+632439*
+1$ $((
+
+633023*
+1$ $((
+
+632439*
+1$ $((

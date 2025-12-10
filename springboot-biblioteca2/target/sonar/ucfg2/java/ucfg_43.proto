@@ -1,0 +1,59 @@
+
+§com.sergio.springboot.biblioteca2.springboot_biblioteca2.controllers.LibroController#obtenerLibrosPaginados(IILjava/lang/String;)Lorg/springframework/data/domain/Page;Å
+ºC:/Users/sergi/OneDrive/Documentos/Springboot/Helen-Library/springboot-biblioteca2/src/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/controllers/LibroController.javaX X(-"startingBlock*¬
+startingBlockX- [(=¯
+¬
+[ [(.
+%2"
+__annotate*T
+
+__unknown_file (86
+4org.springframework.web.bind.annotation.RequestParam*8
+
+__unknown_file (
+
+sortByjava.lang.StringZ
+X
+[6 [(<
+sortByjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2*
+1*¾
+1\ \(ò
+ï
+\ \(T
+%0Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService"__id*†
+
+__unknown_file (j*hV
+Tcom.sergio.springboot.biblioteca2.springboot_biblioteca2.controllers.LibroController"
+libroServiceÿü
+\ \(E*
+%1$org.springframework.data.domain.Page" com.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService#listarLibrosPaginados(IILjava/lang/String;)Lorg/springframework/data/domain/Page;*r
+
+__unknown_file (V
+T
+%0Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*8
+
+__unknown_file (
+
+sortByjava.lang.String2+listarLibrosPaginados(IILjava/lang/String;)"8
+\ \(F,
+*
+%1$org.springframework.data.domain.Page: 
+
+__unknown_file (
+"": 
+
+__unknown_file (
+"":&
+[ [(<
+sortByjava.lang.StringBXV
+Tcom.sergio.springboot.biblioteca2.springboot_biblioteca2.controllers.LibroControllerH

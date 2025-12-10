@@ -1,0 +1,96 @@
+
+icom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#toString()Ljava/lang/String;½
+²C:/Users/sergi/OneDrive/Documentos/Springboot/Helen-Library/springboot-biblioteca2/src/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Valoracion.java@ @("1*Ð
+1A A( Ÿ
+œ
+A# A(%
+%0java.lang.Long"__id*t
+
+__unknown_file (X*VN
+Lcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion"
+ids
+q
+A A(%
+%1java.lang.String"__concat*
+A A( 
+Valoracion [id=*"
+A# A(%
+
+%0java.lang.Longr
+p
+A A(6
+%2java.lang.String"__concat*$
+A A(%
+
+%1java.lang.String*
+A( A(6
+, estrellas=h
+f
+A A(B
+%3java.lang.String"__concat*$
+A A(6
+
+%2java.lang.String*
+A9 A(B
+""p
+n
+A A(Q
+%4java.lang.String"__concat*$
+A A(B
+
+%3java.lang.String*
+AE A(Q
+
+, critica=¦
+£
+AT A([
+%5java.lang.String"__id*y
+
+__unknown_file (]*[N
+Lcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion"	
+criticaz
+x
+A A([
+%6java.lang.String"__concat*$
+A A(Q
+
+%4java.lang.String*$
+AT A([
+
+%5java.lang.Stringw
+u
+A A(q
+%7java.lang.String"__concat*$
+A A([
+
+%6java.lang.String*!
+A^ A(q
+, cosasADestacar=®
+«
+B B( 
+%8java.lang.String"__id*€
+
+__unknown_file (d*bN
+Lcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion"
+cosasADestacarz
+x
+A B( 
+%9java.lang.String"__concat*$
+A A(q
+
+%7java.lang.String*$
+B B( 
+
+%8java.lang.Stringh
+f
+A B(&
+%10java.lang.String"__concat*$
+A B( 
+
+%9java.lang.String*
+B# B(&
+]"%
+A B('
+
+%10java.lang.StringBPN
+Lcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.ValoracionH

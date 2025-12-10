@@ -1,0 +1,21 @@
+
+mcom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService#listarLibros()Ljava/util/List;¿
+´C:/Users/sergi/OneDrive/Documentos/Springboot/Helen-Library/springboot-biblioteca2/src/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/services/LibroService.java (#"1*°
+1 (,ö
+ó
+ (,[
+%0Ucom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.LibroRepository"__id*ƒ
+
+__unknown_file (g*eP
+Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService"
+libroRepositoryÿü
+ (6
+%1java.lang.Iterable"Porg.springframework.data.repository.CrudRepository#findAll()Ljava/lang/Iterable;*y
+
+__unknown_file (]
+[
+%0Ucom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.LibroRepository2	findAll()"&
+ (7
+
+%1java.lang.IterableBRP
+Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroServiceH

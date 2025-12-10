@@ -1,0 +1,39 @@
+
+___sonar_lambda_1$com.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService¿
+´C:/Users/sergi/OneDrive/Documentos/Springboot/Helen-Library/springboot-biblioteca2/src/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/services/LibroService.java$ $(Q"startingBlock*Ò
+startingBlock$ $(Q±
+®
+
+__unknown_file (
+idjava.lang.Long"__id*v
+
+__unknown_file (Z*XP
+Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService"
+id*
+1*Õ
+1$. $(K€
+~
+$. $(P
+%17java.lang.String"__concat*+
+$. $(K
+Libro no encontrado con id *"
+$N $(P
+
+idjava.lang.LongKI
+$ $(-!
+%18java.lang.RuntimeException"java.lang.RuntimeExceptionÄ
+Á
+$ $(Q
+%19"6java.lang.RuntimeException#<init>(Ljava/lang/String;)V*?
+
+__unknown_file (#
+!
+%18java.lang.RuntimeException*5
+
+__unknown_file (
+
+%17java.lang.String"/
+$ $(Q#
+!
+%18java.lang.RuntimeExceptionB
+java.util.function.Supplier

@@ -1,0 +1,102 @@
+
+d__sonar_lambda_4$com.sergio.springboot.biblioteca2.springboot_biblioteca2.services.ValoracionServiceƒ
+πC:/Users/sergi/OneDrive/Documentos/Springboot/Helen-Library/springboot-biblioteca2/src/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/services/ValoracionService.java 5 %("startingBlock*„
+startingBlock 5 %(õ
+ò
+
+__unknown_file (e
+valoracionActualizadaLcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion"__id*é
+
+__unknown_file (r*pU
+Scom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.ValoracionService"
+valoracionActualizada§
+°
+
+__unknown_file (m
+ValoracionService.thisScom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.ValoracionService"__id*è
+
+__unknown_file (s*qU
+Scom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.ValoracionService"
+ValoracionService.this*
+1* 
+1! !(åâ
+!$ !(H	
+%3int"\com.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#getEstrellas()I*É
+
+__unknown_file (g
+e
+valoracionActualizadaLcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion2getEstrellas()¨©
+! !(I
+
+%4void"]com.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#setEstrellas(I)V*x
+
+__unknown_file (\
+Z
+
+valoracionLcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion*'
+
+__unknown_file (
+	
+%3int2setEstrellas(I)¶£
+"" "(D
+%5java.lang.String"kcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#getCritica()Ljava/lang/String;*É
+
+__unknown_file (g
+e
+valoracionActualizadaLcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion2getCritica()◊‘
+" "(E
+
+%6void"lcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#setCritica(Ljava/lang/String;)V*x
+
+__unknown_file (\
+Z
+
+valoracionLcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion*4
+
+__unknown_file (
+
+%5java.lang.String2setCritica(Ljava/lang/String;)¥±
+#) #(R
+%7java.lang.String"rcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#getCosasADestacar()Ljava/lang/String;*É
+
+__unknown_file (g
+e
+valoracionActualizadaLcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion2getCosasADestacar()Â‚
+# #(S
+
+%8void"scom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#setCosasADestacar(Ljava/lang/String;)V*x
+
+__unknown_file (\
+Z
+
+valoracionLcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion*4
+
+__unknown_file (
+
+%7java.lang.String2%setCosasADestacar(Ljava/lang/String;)ü
+ú
+$ $('`
+%9Zcom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.ValoracionRepository"__id*ß
+
+__unknown_file (ä*á
+m
+ValoracionService.thisScom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.ValoracionService"
+valoracionRepository’“
+$ $(8S
+%10Lcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion"]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;*~
+
+__unknown_file (b
+`
+%9Zcom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.ValoracionRepository*x
+
+__unknown_file (\
+Z
+
+valoracionLcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion2save(Ljava/lang/Object;)"a
+$ $(9U
+S
+%10Lcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion:f
+ 5  (?Z
+
+valoracionLcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.ValoracionB
+java.util.function.Function

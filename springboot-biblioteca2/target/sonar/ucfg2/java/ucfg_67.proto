@@ -1,0 +1,141 @@
+
+dcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro#toString()Ljava/lang/String;∏
+≠C:/Users/sergi/OneDrive/Documentos/Springboot/Helen-Library/springboot-biblioteca2/src/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Libro.javam m("1*§
+1n n(ö
+ó
+n n( 
+%0java.lang.Long"__id*o
+
+__unknown_file (S*QI
+Gcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"
+idn
+l
+n n( 
+%1java.lang.String"__concat*
+n n(
+
+Libro {id=*"
+n n( 
+
+%0java.lang.Longo
+m
+n n(.
+%2java.lang.String"__concat*$
+n n( 
+
+%1java.lang.String*
+n# n(.
+	, titulo=†
+ù
+n1 n(7
+%3java.lang.String"__id*s
+
+__unknown_file (W*UI
+Gcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"
+tituloz
+x
+n n(7
+%4java.lang.String"__concat*$
+n n(.
+
+%2java.lang.String*$
+n1 n(7
+
+%3java.lang.Stringn
+l
+n n(D
+%5java.lang.String"__concat*$
+n n(7
+
+%4java.lang.String*
+n: n(D
+
+, autor=ü
+ú
+nG n(L
+%6java.lang.String"__id*r
+
+__unknown_file (V*TI
+Gcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"
+autorz
+x
+n n(L
+%7java.lang.String"__concat*$
+n n(D
+
+%5java.lang.String*$
+nG n(L
+
+%6java.lang.Stringo
+m
+n n(Z
+%8java.lang.String"__concat*$
+n n(L
+
+%7java.lang.String*
+nO n(Z
+	, genero=†
+ù
+n] n(c
+%9java.lang.String"__id*s
+
+__unknown_file (W*UI
+Gcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"
+genero{
+y
+n n(c
+%10java.lang.String"__concat*$
+n n(Z
+
+%8java.lang.String*$
+n] n(c
+
+%9java.lang.Stringr
+p
+n n(r
+%11java.lang.String"__concat*%
+n n(c
+
+%10java.lang.String*
+nf n(r
+
+, paginas=j
+h
+n n(|
+%12java.lang.String"__concat*%
+n n(r
+
+%11java.lang.String*
+nu n(|
+""r
+p
+	n n(â
+%13java.lang.String"__concat*%
+n n(|
+
+%12java.lang.String*
+	n n(â
+
+, leido=n
+l
+	n n(ë
+%14java.lang.String"__concat*&
+	n n(â
+
+%13java.lang.String*
+
+nå n(ë
+""m
+k
+	n n(ó
+%15java.lang.String"__concat*&
+	n n(ë
+
+%14java.lang.String*
+
+nî n(ó
+}"&
+	n n(ò
+
+%15java.lang.StringBKI
+Gcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.LibroH

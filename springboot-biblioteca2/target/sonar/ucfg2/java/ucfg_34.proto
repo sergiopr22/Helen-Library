@@ -1,0 +1,21 @@
+
+tcom.sergio.springboot.biblioteca2.springboot_biblioteca2.controllers.LibroController#obtenerLibros()Ljava/util/List;Å
+ºC:/Users/sergi/OneDrive/Documentos/Springboot/Helen-Library/springboot-biblioteca2/src/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/controllers/LibroController.java# #($"1*¿
+1$ $(ò
+ï
+$ $(T
+%0Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService"__id*†
+
+__unknown_file (j*hV
+Tcom.sergio.springboot.biblioteca2.springboot_biblioteca2.controllers.LibroController"
+libroService–“
+$ $(*
+%1java.util.List"mcom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService#listarLibros()Ljava/util/List;*r
+
+__unknown_file (V
+T
+%0Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService2listarLibros()""
+$ $(+
+
+%1java.util.ListBXV
+Tcom.sergio.springboot.biblioteca2.springboot_biblioteca2.controllers.LibroControllerH

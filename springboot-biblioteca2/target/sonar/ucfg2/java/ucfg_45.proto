@@ -1,0 +1,21 @@
+
+xcom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.ValoracionService#listarValoraciones()Ljava/util/List;ƒ
+πC:/Users/sergi/OneDrive/Documentos/Springboot/Helen-Library/springboot-biblioteca2/src/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/services/ValoracionService.java (."1*ƒ
+1" (6Ö
+Ç
+" (6`
+%0Zcom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.ValoracionRepository"__id*ç
+
+__unknown_file (q*oU
+Scom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.ValoracionService"
+valoracionRepositoryÑÅ
+" (@
+%1java.lang.Iterable"Porg.springframework.data.repository.CrudRepository#findAll()Ljava/lang/Iterable;*~
+
+__unknown_file (b
+`
+%0Zcom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.ValoracionRepository2	findAll()"&
+ (A
+
+%1java.lang.IterableBWU
+Scom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.ValoracionServiceH

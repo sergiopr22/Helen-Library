@@ -1,0 +1,27 @@
+
+qcom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService#filtrarPorLeido(Z)Ljava/util/List;¿
+´C:/Users/sergi/OneDrive/Documentos/Springboot/Helen-Library/springboot-biblioteca2/src/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/services/LibroService.javaF F(&"1*õ
+1G G(ö
+ó
+G G([
+%0Ucom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.LibroRepository"__id*ƒ
+
+__unknown_file (g*eP
+Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService"
+libroRepositoryÈÅ
+G G(-
+%1java.util.List"tcom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.LibroRepository#findByLeido(Z)Ljava/util/List;*y
+
+__unknown_file (]
+[
+%0Ucom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.LibroRepository*"
+
+__unknown_file (
+""2findByLeido(Z)""
+G G(.
+
+%1java.util.List: 
+
+__unknown_file (
+""BRP
+Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroServiceH

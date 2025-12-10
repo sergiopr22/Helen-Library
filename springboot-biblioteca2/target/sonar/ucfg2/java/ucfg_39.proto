@@ -1,0 +1,130 @@
+
+’com.sergio.springboot.biblioteca2.springboot_biblioteca2.controllers.LibroController#actualizarValoracion(Ljava/lang/Long;Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Valoracion;)Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Libro;Å
+ºC:/Users/sergi/OneDrive/Documentos/Springboot/Helen-Library/springboot-biblioteca2/src/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/controllers/LibroController.java> >(%"startingBlock* 
+startingBlock>% >(`¸
+µ
+
+__unknown_file (
+%5"__id*Œ
+
+__unknown_file (p*n
+Z
+
+valoracionLcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion"
+cosasADestacar±
+®
+
+__unknown_file (
+%6"__id*…
+
+__unknown_file (i*g
+Z
+
+valoracionLcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion"	
+critica˜
+•
+>= >(I
+%7"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%6¨
+¥
+>U >(_g
+Z
+
+valoracionLcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion"	
+critica"__annotation*"
+
+__unknown_file (
+
+%7˜
+•
+>= >(I
+%8"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%5¯
+¬
+>U >(_n
+Z
+
+valoracionLcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion"
+cosasADestacar"__annotation*"
+
+__unknown_file (
+
+%8*
+1*¥
+1? ?("ò
+ï
+? ?("T
+%0Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService"__id*†
+
+__unknown_file (j*hV
+Tcom.sergio.springboot.biblioteca2.springboot_biblioteca2.controllers.LibroController"
+libroServiceÝÚ
+? ?(3M
+%1Gcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"¶com.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService#obtenerPorId(Ljava/lang/Long;)Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Libro;*r
+
+__unknown_file (V
+T
+%0Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService*2
+
+__unknown_file (
+
+idjava.lang.Long2obtenerPorId(Ljava/lang/Long;)Ò
+Ï
+? ?(4P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"__id*k
+
+__unknown_file (O
+M
+%1Gcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro‹ˆ
+@ @('
+
+%2void"¦com.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro#setValoracion(Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Valoracion;)V*n
+
+__unknown_file (R
+P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro*x
+
+__unknown_file (\
+Z
+
+valoracionLcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion2]setValoracion(Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Valoracion;)ò
+ï
+A A(T
+%3Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService"__id*†
+
+__unknown_file (j*hV
+Tcom.sergio.springboot.biblioteca2.springboot_biblioteca2.controllers.LibroController"
+libroService‹ˆ
+A A(/M
+%4Gcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"ïcom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService#guardarLibro(Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Libro;)Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Libro;*r
+
+__unknown_file (V
+T
+%3Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService*n
+
+__unknown_file (R
+P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro2WguardarLibro(Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Libro;)"[
+A A(0O
+M
+%4Gcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro: 
+>& >(<
+idjava.lang.Long:f
+>= >(_Z
+
+valoracionLcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.ValoracionBXV
+Tcom.sergio.springboot.biblioteca2.springboot_biblioteca2.controllers.LibroControllerH

@@ -1,0 +1,240 @@
+
+Õcom.sergio.springboot.biblioteca2.springboot_biblioteca2.controllers.LibroController#agregarLibro(Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Libro;)Lorg/springframework/http/ResponseEntity;Å
+ºC:/Users/sergi/OneDrive/Documentos/Springboot/Helen-Library/springboot-biblioteca2/src/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/controllers/LibroController.java(! ((-"startingBlock*Æ
+startingBlock(- ((N¤
+¡
+
+__unknown_file (
+%5"__id*y
+
+__unknown_file (]*[
+P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"
+autor¥
+¢
+
+__unknown_file (
+%6"__id*z
+
+__unknown_file (^*\
+P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"
+genero¥
+¢
+
+__unknown_file (
+%7"__id*z
+
+__unknown_file (^*\
+P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"
+titulo©
+¦
+
+__unknown_file (
+%8"__id*~
+
+__unknown_file (b*`
+P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"
+
+valoracion|
+z
+(. ((4
+%9"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*"
+
+__unknown_file (
+
+%8™
+–
+(5 ((A
+%10"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%8Æ
+Ã
+(H ((M`
+P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"
+
+valoracion"__annotation*"
+
+__unknown_file (
+
+%9*#
+
+__unknown_file (
+
+%10}
+{
+(. ((4
+%11"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*"
+
+__unknown_file (
+
+%5™
+–
+(5 ((A
+%12"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%5Â
+¿
+(H ((M[
+P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"
+autor"__annotation*#
+
+__unknown_file (
+
+%11*#
+
+__unknown_file (
+
+%12}
+{
+(. ((4
+%13"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*"
+
+__unknown_file (
+
+%7™
+–
+(5 ((A
+%14"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%7Ã
+À
+(H ((M\
+P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"
+titulo"__annotation*#
+
+__unknown_file (
+
+%13*#
+
+__unknown_file (
+
+%14}
+{
+(. ((4
+%15"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*"
+
+__unknown_file (
+
+%6™
+–
+(5 ((A
+%16"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%6Ã
+À
+(H ((M\
+P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"
+genero"__annotation*#
+
+__unknown_file (
+
+%15*#
+
+__unknown_file (
+
+%16*
+1*Œ
+1) )("ò
+ï
+) )("T
+%0Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService"__id*†
+
+__unknown_file (j*hV
+Tcom.sergio.springboot.biblioteca2.springboot_biblioteca2.controllers.LibroController"
+libroService‹ˆ
+) )(6M
+%1Gcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"ïcom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService#guardarLibro(Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Libro;)Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Libro;*r
+
+__unknown_file (V
+T
+%0Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService*n
+
+__unknown_file (R
+P
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro2WguardarLibro(Lcom/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Libro;)Ò
+Ï
+) )(7P
+nuevoGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro"__id*k
+
+__unknown_file (O
+M
+%1Gcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libroa
+_
+*% *(7)
+%2#org.springframework.http.HttpStatus"__id*"
+
+__unknown_file (
+""ë
+è
+* *(89
+%33org.springframework.http.ResponseEntity$BodyBuilder"Žorg.springframework.http.ResponseEntity#status(Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/http/ResponseEntity$BodyBuilder;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*G
+
+__unknown_file (+
+)
+%2#org.springframework.http.HttpStatus–“
+* *(D-
+%4'org.springframework.http.ResponseEntity"uorg.springframework.http.ResponseEntity$BodyBuilder#body(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*W
+
+__unknown_file (;
+9
+%33org.springframework.http.ResponseEntity$BodyBuilder*n
+
+__unknown_file (R
+P
+nuevoGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro2body(Ljava/lang/Object;)";
+* *(E/
+-
+%4'org.springframework.http.ResponseEntity:\
+(. ((MP
+libroGcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.LibroBXV
+Tcom.sergio.springboot.biblioteca2.springboot_biblioteca2.controllers.LibroControllerH

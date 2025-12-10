@@ -1,0 +1,574 @@
+
+1.0sergiopr22_Helen-LibraryJavaFrontend"1765397059155*java2.BØ
+d
+_src/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/entities/Valoracion.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+sergiopr22_Helen-Library6
+
+package8
+_
+Zsergiopr22_Helen-Library:com.sergio.springboot.biblioteca2.springboot_biblioteca2.entities9
+R
+Lcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(9:1)-(71:2)16
+
+simple-name17
+
+
+Valoracion18
+ 
+jakarta.persistence.Entity20
+
+unknown21
+
+annotated by22
+
+
+uses23
+
+jakarta.persistence.Table25
+U
+Ocom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion.id27
+
+field28
+
+private29
+
+(13:5)-(15:21)30
+
+id31
+
+jakarta.persistence.Id33
+(
+"jakarta.persistence.GeneratedValue35
+(
+"jakarta.persistence.GenerationType37
+1
++jakarta.persistence.GenerationType.IDENTITY39
+
+
+references40
+\
+Vcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion.estrellas42
+
+(17:5)-(17:27)43
+
+	estrellas44
+Z
+Tcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion.critica46
+
+(18:5)-(18:28)47
+
+critica48
+a
+[com.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion.cosasADestacar50
+
+(19:5)-(19:35)51
+
+cosasADestacar52
+\
+Vcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#<init>()V54
+
+method55
+
+(21:5)-(23:6)56
+
+calls57
+Å
+{com.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#<init>(ILjava/lang/String;Ljava/lang/String;)V59
+
+(25:5)-(29:6)60
+j
+dcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#getId()Ljava/lang/Long;62
+
+(31:5)-(33:6)63
+
+getId64
+k
+ecom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#setId(Ljava/lang/Long;)V66
+
+(35:5)-(37:6)67
+
+setId68
+b
+\com.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#getEstrellas()I70
+
+(39:5)-(41:6)71
+
+getEstrellas72
+c
+]com.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#setEstrellas(I)V74
+
+(43:5)-(45:6)75
+
+setEstrellas76
+q
+kcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#getCritica()Ljava/lang/String;78
+
+(47:5)-(49:6)79
+
+
+getCritica80
+r
+lcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#setCritica(Ljava/lang/String;)V82
+
+(51:5)-(53:6)83
+
+
+setCritica84
+x
+rcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#getCosasADestacar()Ljava/lang/String;86
+
+(55:5)-(57:6)87
+
+getCosasADestacar88
+y
+scom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#setCosasADestacar(Ljava/lang/String;)V90
+
+(59:5)-(61:6)91
+
+setCosasADestacar92
+o
+icom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion#toString()Ljava/lang/String;94
+
+(63:5)-(67:6)95
+
+toString96J#
+!
+1
+12
+
+3
+4
+
+5
+6Z
+
+7
+7982
+
+
+5
+6jÙ
+
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+26H
+262728 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+30
+
+
+17
+31
+
+19
+192021
+N
+58H
+585955 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+60
+
+
+17
+18
+N
+77H
+777855 *
+1/ /(210:7B$
+
+
+13
+14
+
+
+15
+79
+
+
+17
+80
+N
+49H
+495028 *
+1 ("210:7B$
+
+
+13
+29
+
+
+15
+51
+
+
+17
+52
+N
+73H
+737455 *
+1+ +(210:7B$
+
+
+13
+14
+
+
+15
+75
+
+
+17
+76
+
+32
+323321
+
+34
+343521
+
+38
+383921
+
+36
+363721
+N
+53H
+535455 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+56
+
+
+17
+18
+
+24
+242521
+N
+45H
+454628 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+47
+
+
+17
+48
+N
+65H
+656655 *
+1# #(210:7B$
+
+
+13
+14
+
+
+15
+67
+
+
+17
+68
+N
+69H
+697055 *
+1' '(210:7B$
+
+
+13
+14
+
+
+15
+71
+
+
+17
+72
+N
+85H
+858655 *
+17 7($210:7B$
+
+
+13
+14
+
+
+15
+87
+
+
+17
+88
+N
+41H
+414228 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+43
+
+
+17
+44
+N
+89H
+899055 *
+1; ;("210:7B$
+
+
+13
+14
+
+
+15
+91
+
+
+17
+92
+N
+81H
+818255 *
+13 3(210:7B$
+
+
+13
+14
+
+
+15
+83
+
+
+17
+84
+N
+61H
+616255 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+63
+
+
+17
+64
+N
+93H
+939455 *
+1@ @(210:7B$
+
+
+13
+14
+
+
+15
+95
+
+
+17
+96rÓ
+
+101922*
+1	 	(
+
+101923*
+1	 	(
+
+102422*
+1
+ 
+(
+
+102423*
+1
+ 
+(
+
+263222*
+1 (
+
+263223*
+1 (
+
+263422*
+1 (8
+
+263423*
+1 (
+
+263623*
+1  (.
+
+263623*
+1/ (7
+
+263840*
+1/ (7
+
+531057*
+1 (
+
+581057*
+1 (
+
+581023*
+1	 (
+
+581040*
+1	 (
+
+584140*
+1 (
+
+581023*
+1	 (
+
+581040*
+1	 (
+
+584540*
+1 (
+
+581023*
+1	 (
+
+581040*
+1	 (
+
+584940*
+1 (
+
+612640*
+1   (
+
+651023*
+1$	 $(
+
+651040*
+1$	 $(
+
+652640*
+1$ $(
+
+694140*
+1( ((
+
+731023*
+1,	 ,(
+
+731040*
+1,	 ,(
+
+734140*
+1, ,(
+
+774540*
+10 0(
+
+811023*
+14	 4(
+
+811040*
+14	 4(
+
+814540*
+14 4(
+
+854940*
+18 8(
+
+891023*
+1<	 <(
+
+891040*
+1<	 <(
+
+894940*
+1< <(
+
+932640*
+1A$ A(&
+
+934140*
+1A: A(C
+
+934540*
+1AU A(\
+
+934940*
+1B B(!

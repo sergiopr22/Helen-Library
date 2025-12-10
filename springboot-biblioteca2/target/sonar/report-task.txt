@@ -1,0 +1,7 @@
+organization=sergiopr22
+projectKey=sergiopr22_Helen-Library
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.77288
+dashboardUrl=https://sonarcloud.io/dashboard?id=sergiopr22_Helen-Library
+ceTaskId=AZsJ3Wyals0mnYttQHnt
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZsJ3Wyals0mnYttQHnt

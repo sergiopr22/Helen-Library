@@ -1,0 +1,93 @@
+
+1.0sergiopr22_Helen-LibraryJavaFrontend"1765397059237*java2.BË
+r
+msrc/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/repositories/ValoracionRepository.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+sergiopr22_Helen-Library6
+
+package8
+c
+^sergiopr22_Helen-Library:com.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories9
+`
+Zcom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.ValoracionRepository11
+
+	interface12
+
+access13
+
+public14
+
+
+full-range15
+
+(7:1)-(9:2)16
+
+simple-name17
+
+ValoracionRepository18
+8
+2org.springframework.data.repository.CrudRepository20
+
+unknown21
+
+
+implements22
+
+
+uses23
+R
+Lcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Valoracion25J#
+!
+1
+12
+
+3
+4
+
+5
+6Z
+
+7
+7982
+
+
+5
+6jt
+
+24
+242521
+J
+10D
+101112 *
+1 (&:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+19
+192021rQ
+
+101922*
+1/ (O
+
+101923*
+1/ (=
+
+102423*
+1> (H

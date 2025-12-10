@@ -1,0 +1,253 @@
+
+1.0sergiopr22_Helen-LibraryJavaFrontend"1765397059210*java2.BÎ
+m
+hsrc/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/repositories/LibroRepository.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+sergiopr22_Helen-Library6
+
+package8
+c
+^sergiopr22_Helen-Library:com.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories9
+[
+Ucom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.LibroRepository11
+
+	interface12
+
+access13
+
+public14
+
+
+full-range15
+
+(10:1)-(27:2)16
+
+simple-name17
+
+LibroRepository18
+8
+2org.springframework.data.repository.CrudRepository20
+
+unknown21
+
+
+implements22
+D
+>org.springframework.data.repository.PagingAndSortingRepository24
+
+
+uses25
+M
+Gcom.sergio.springboot.biblioteca2.springboot_biblioteca2.entities.Libro27
+¡
+šcom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.LibroRepository#findByTituloContainingIgnoreCase(Ljava/lang/String;)Ljava/util/List;29
+
+method30
+
+(13:5)-(13:65)31
+&
+ findByTituloContainingIgnoreCase32
+ 
+™com.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.LibroRepository#findByAutorContainingIgnoreCase(Ljava/lang/String;)Ljava/util/List;34
+
+(16:5)-(16:63)35
+%
+findByAutorContainingIgnoreCase36
+¡
+šcom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.LibroRepository#findByGeneroContainingIgnoreCase(Ljava/lang/String;)Ljava/util/List;38
+
+(19:5)-(19:65)39
+&
+ findByGeneroContainingIgnoreCase40
+þ
+÷com.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.LibroRepository#findByTituloContainingIgnoreCaseAndAutorContainingIgnoreCaseAndGeneroContainingIgnoreCase(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;42
+
+(22:5)-(23:57)43
+_
+YfindByTituloContainingIgnoreCaseAndAutorContainingIgnoreCaseAndGeneroContainingIgnoreCase44
+z
+tcom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.LibroRepository#findByLeido(Z)Ljava/util/List;46
+
+(26:5)-(26:44)47
+
+findByLeido48J#
+!
+1
+12
+
+3
+4
+
+5
+6Z
+
+7
+7982
+
+
+5
+6j˜
+J
+10D
+101112 *
+1
+ 
+(!:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+41H
+414230 *
+1 (j210:7B$
+
+
+13
+14
+
+
+15
+43
+
+
+17
+44
+
+23
+232421
+N
+33H
+333430 *
+1 (0210:7B$
+
+
+13
+14
+
+
+15
+35
+
+
+17
+36
+
+26
+262721
+N
+28H
+282930 *
+1 (1210:7B$
+
+
+13
+14
+
+
+15
+31
+
+
+17
+32
+N
+45H
+454630 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+47
+
+
+17
+48
+N
+37H
+373830 *
+1 (1210:7B$
+
+
+13
+14
+
+
+15
+39
+
+
+17
+40
+
+19
+192021r©
+
+101922*
+1
+* 
+(E
+
+102322*
+1
+G 
+(n
+
+101925*
+1
+* 
+(8
+
+102625*
+1
+9 
+(>
+
+102325*
+1
+G 
+(a
+
+102625*
+1
+b 
+(g
+
+282625*
+1
+ (
+
+332625*
+1
+ (
+
+372625*
+1
+ (
+
+412625*
+1
+ (
+
+452625*
+1
+ (

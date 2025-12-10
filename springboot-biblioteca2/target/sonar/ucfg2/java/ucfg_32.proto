@@ -1,0 +1,66 @@
+
+†com.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService#listarLibrosPaginados(IILjava/lang/String;)Lorg/springframework/data/domain/Page;ø
+¥C:/Users/sergi/OneDrive/Documentos/Springboot/Helen-Library/springboot-biblioteca2/src/main/java/com/sergio/springboot/biblioteca2/springboot_biblioteca2/services/LibroService.javaK K(,"1*Ç
+1L L('ù
+ö
+L7 L(F*
+%0$org.springframework.data.domain.Sort"borg.springframework.data.domain.Sort#by([Ljava/lang/String;)Lorg/springframework/data/domain/Sort;*D
+
+__unknown_file (("&
+$org.springframework.data.domain.Sort*8
+
+__unknown_file (
+
+sortByjava.lang.Stringß
+§
+L L(G1
+%1+org.springframework.data.domain.PageRequest"Öorg.springframework.data.domain.PageRequest#of(IILorg/springframework/data/domain/Sort;)Lorg/springframework/data/domain/PageRequest;*K
+
+__unknown_file (/"-
++org.springframework.data.domain.PageRequest*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*H
+
+__unknown_file (,
+*
+%0$org.springframework.data.domain.Sortö
+ó
+L L(H4
+pageable(org.springframework.data.domain.Pageable"__id*O
+
+__unknown_file (3
+1
+%1+org.springframework.data.domain.PageRequestˆ
+Û
+M M([
+%2Ucom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.LibroRepository"__id*É
+
+__unknown_file (g*eP
+Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroService"
+libroRepositoryÿ’
+M M(0*
+%3$org.springframework.data.domain.Page"òorg.springframework.data.repository.PagingAndSortingRepository#findAll(Lorg/springframework/data/domain/Pageable;)Lorg/springframework/data/domain/Page;*y
+
+__unknown_file (]
+[
+%2Ucom.sergio.springboot.biblioteca2.springboot_biblioteca2.repositories.LibroRepository*R
+
+__unknown_file (6
+4
+pageable(org.springframework.data.domain.Pageable23findAll(Lorg/springframework/data/domain/Pageable;)"8
+M M(1,
+*
+%3$org.springframework.data.domain.Page: 
+
+__unknown_file (
+"": 
+
+__unknown_file (
+"":&
+KA K(N
+sortByjava.lang.StringBRP
+Ncom.sergio.springboot.biblioteca2.springboot_biblioteca2.services.LibroServiceH
